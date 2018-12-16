@@ -1,0 +1,46 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* モバイルファースト（全環境に共通のデザイン） ================================ */
+html {
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif; font-weight: bold;
+  height: 100px;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #2d3133;
+  font-size: 14px;
+}
+
+/* top */
+.title{
+   text-align: center;
+   vertical-align: center;
+   padding:5px;
+   a{
+     font-size:20px;
+   }
+}
+
+
+.concept{
+  padding:15px;
+
+ h1{
+  font-size:20px;
+}
+}
